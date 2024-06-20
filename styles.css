@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fire.jpg'); 
+  }
+  
+ 
+  header {
+    background-color: #153448;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .introduction {
+    padding: 1em;
+    background-color: #95D2B3;
+  }
+  
+  .journey ul li {
+    color: #0C1844;
+    margin-left: 1em;
+  }
+  
+  main > section {
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .introduction + .journey {
+    background-color: #FCDC94;
+  }
+  
+  .introduction ~ .journey {
+    border-left: 5px solid #FFA726;
+  }
+  
+  .dragon-encounter::before {
+    content: url('dragon2.jpg');
+    display: block;
+    margin: 0 auto 1em;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #0C1844;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+    .introduction {
+    background-color: #ADD899;
+  }
+  
+  .journey {
+    background-color: #C80036;
+  }
+  
+  .dragon-encounter {
+    background-color: #EF9C66;
+  }
+  
+  .conclusion {
+    background-color: #FF8A08;
+  }
+  
+  main > section {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  main > section:hover {
+    transform: scale(1.02);
+  }
+  
